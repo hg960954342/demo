@@ -37,7 +37,9 @@ public class Test {
         sites.add("Taobao");
         sites.add("Zhihu");
         sites.add("Runoob");  // 重复的元素不会被添加
-        System.out.print(date()+"   "+sites+"\n"+"\n");
+//        System.out.print(date()+"   "+sites+"\n"+"\n");
+
+        System.out.println(Float.parseFloat("1123334.7"));
     }
 
     public String date(){
