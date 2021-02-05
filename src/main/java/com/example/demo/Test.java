@@ -23,7 +23,13 @@ public class Test {
         double y = 13000f;
         double z = x-y;
 
-
+        List<String> list=new ArrayList<String>();
+        list.add("Hello");
+        list.add("World");
+        list.add("HAHAHAHA");
+        for (String i : list) {
+//            System.out.println(date()+"   "+i+"\n");
+        }
 
         HashSet<String> sites = new HashSet<String>();
         sites.add("Google");
